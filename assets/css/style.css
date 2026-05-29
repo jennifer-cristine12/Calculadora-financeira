@@ -1,0 +1,92 @@
+:root {
+    --cor-fundo: #f0f0f0;
+    --cor-primaria: #3498db;
+    --cor-secundaria: #2ecc71;
+    --cor-texto: #333;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    align-self: center;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url("../img/background.jpg");
+    background-size: cover;
+    color: var(--cor-texto);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+main {
+    background-color: var(--cor-fundo);
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    max-width: 540px;
+    min-width: 300px;
+}
+
+h1,
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    align-items: center;
+}
+
+section {
+    width: 95%;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    margin: 10px;
+    padding: 10px 0;
+    gap: 4px;
+
+}
+
+form label {
+    display: block;
+    margin-bottom: 2px;
+}
+
+form input,
+select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 12px;
+    border: 1px solid var(--cor-texto);
+    border-radius: 4px;
+    background-color: transparent;
+}
+
+form input:focus,
+select:focus {
+    border-color: var(--cor-primaria);
+    background-color: white;
+    outline: none;
+}
+
+form button {
+    width: 100%;
+    padding: 10px;
+    background-color: var(--cor-primaria);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 10px;
+}
