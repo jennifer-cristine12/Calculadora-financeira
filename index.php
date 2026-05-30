@@ -60,6 +60,7 @@
             $a2 = 20;
 
             $r1 = 10; //reserva
+            $r2 = 20; //reserva
             $ap1 = 10; //aposentadoria
 
             $contas = 1;
@@ -81,7 +82,7 @@
                 case 3: // 50/30/20
                     $contas = $valor * ($v2 / 100);
                     $compras = $valor * ($a1 / 100);
-                    $reserva = $valor * ($r1 / 100);
+                    $reserva = $valor * ($r2 / 100);
                     break;
                 case 4: // 60/20/10/10
                     $contas = $valor * ($v3 / 100);
